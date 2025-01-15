@@ -1,0 +1,9 @@
+fastapi
+celery
+github
+langchain
+langchain_google_genai
+langchian_community
+requests
+uvicorn
+redis
