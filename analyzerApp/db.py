@@ -1,6 +1,6 @@
-import redis
+from redis import Redis
 
-redis_client = redis.StrictRedis(host="localhost", port=6379, db=0)
+redis_client = Redis(host="redis", port=6379, db=0)
 
 def store_result(task_id, result):
     redis_client.set(task_id, result)

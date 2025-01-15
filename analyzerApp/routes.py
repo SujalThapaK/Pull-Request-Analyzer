@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from app.tasks import analyze_pr
+from analyzerApp.tasks import analyze_pr
 from celery.result import AsyncResult
-from app.db import get_task_result
+from analyzerApp.db import get_task_result
 import os
 
 router = APIRouter()

@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from app.main import app  # Replace with the actual import path of your FastAPI app
+from analyzerApp.main import app  # Replace with the actual import path of your FastAPI app
 
 client = TestClient(app)
 

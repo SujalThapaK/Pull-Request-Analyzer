@@ -1,9 +1,9 @@
 fastapi
 celery
-github
+pygithub
 langchain
 langchain_google_genai
-langchian_community
+langchain_community
 requests
 uvicorn
 redis

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import router
+from analyzerApp.routes import router
 
 app = FastAPI(title="Autonomous Code Review Agent")
 app.include_router(router)

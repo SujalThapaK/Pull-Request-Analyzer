@@ -1,5 +1,5 @@
 import pytest
-from app.tasks import analyze_pr  # Replace with the actual import path of your Celery task
+from analyzerApp.tasks import analyze_pr  # Replace with the actual import path of your Celery task
 
 @pytest.fixture
 def mock_pr_payload():

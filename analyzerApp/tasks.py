@@ -1,7 +1,7 @@
 from celery_config import app
 from github import Github
-from app.agent import analyze_code
-from app.db import store_result
+from analyzerApp.agent import analyze_code
+from analyzerApp.db import store_result
 import os
 
 
