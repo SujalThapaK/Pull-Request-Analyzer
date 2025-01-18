@@ -4,6 +4,7 @@ pygithub
 langchain
 langchain_google_genai
 langchain_community
+langgraph
 requests
 uvicorn
 redis

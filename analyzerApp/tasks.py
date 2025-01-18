@@ -35,14 +35,9 @@ def analyze_pr(self, repo_url, pr_number, opMode):
             # Store each file's added lines as a dict for further processing
             pr_files.append({"filename": file.filename, "Patch File": {patch_content}, "added_lines": added_lines})
         # Analyze the code changes
-        if opMode == 1:
-            results = analyze_code(pr_files,1)
-        elif opMode == 2:
-            results = analyze_code(pr_files,2)
-        else:
-            results = analyze_code(pr_files,0)
+        results = analyze_code(pr_files,opMode)
         store_result(self.request.id, results)
-        print("\nEverything done well.")
+        print("\nEverything done accordingly well.")
         return results
     except Exception as e:
         return {"TrueError": str(e)}
