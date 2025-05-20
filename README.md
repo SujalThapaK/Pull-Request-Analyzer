@@ -1,7 +1,7 @@
 <h1>Pull Request Analyzer</h1>
 A Python API for analyzing the files and changes contained within a pull request using <b>LangGraph.🦜</b><br>
 
-Publicly accessible on: [http://34.46.245.0:8000/](http://35.192.23.147:8000/)
+Publicly accessible on: http://35.192.23.147:8000/
 <br><br>
 <hr>
 <p float="left">
@@ -31,7 +31,7 @@ The request returns a ``"task_id"`` which can be used to check the status and re
 <br>Checks the status of the given analysis ``task_id``. An example request is given below:
 
 ```
-http://34.46.245.0:8000/status/9a23cc7a-cc99-4471-aacf-c0e0d94927e4
+http://35.192.23.147:8000/status/9a23cc7a-cc99-4471-aacf-c0e0d94927e4
 ```
 
 The status values range from ``"success"``, ``"pending"`` and ``"failed"``.
@@ -40,7 +40,7 @@ The status values range from ``"success"``, ``"pending"`` and ``"failed"``.
 <br>Returns the result for the given analysis ``task_id``. An example request is given below:
 
 ```
-http://34.46.245.0:8000/results/9a23cc7a-cc99-4471-aacf-c0e0d94927e4
+http://35.192.23.147:8000/results/9a23cc7a-cc99-4471-aacf-c0e0d94927e4
 ```
 
 The nature of the response will be dependent on the Operation Mode specified in the POST request. The different operation modes are:<br><br>
