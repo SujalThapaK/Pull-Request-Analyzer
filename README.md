@@ -1,7 +1,6 @@
 <h1>Pull Request Analyzer</h1>
 A Python API for analyzing the files and changes contained within a pull request using <b>LangGraph.🦜</b><br>
 
-Publicly accessible on: http://34.46.245.0:8000/
 <br><br>
 <hr>
 <p float="left">
